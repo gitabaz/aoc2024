@@ -16,7 +16,7 @@ NB. rows with a single bad level have abs(sum) differing from len by at most 2
 NB. but this doesn't recalculate the differences between the new adjacent elements
 NB. res2 =: +/;(#-([:|+/))&.>c
 
-smoutput 'p1';res1
-NB. smoutput 'p2';res2
+echo 'p1';res1
+NB. echo 'p2';res2
 
 exit 0

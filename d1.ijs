@@ -8,7 +8,7 @@ NB. create table testing equality of all pairs
 NB. sum rows, multiply by corresponding number, and sum
 res2 =: +/r*+/ l=/r
 
-smoutput 'p1'; res1
-smoutput 'p2'; res2
+echo 'p1'; res1
+echo 'p2'; res2
 
 exit 0

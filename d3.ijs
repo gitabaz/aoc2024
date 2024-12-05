@@ -117,5 +117,7 @@ v =: (I.d-~0<(1*F:.(+-:)d-dn)){r
 NB. turn box of strings to matrix of numbers, multiply, columns, and sum
 res2 =: +/*/"1".>v
 
-smoutput 'p1';res1
-smoutput 'p2';res2
+echo 'p1';res1
+echo 'p2';res2
+
+exit 0
